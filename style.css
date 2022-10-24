@@ -1,0 +1,59 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body{
+    background-color: #1e2123;
+    overflow-x: hidden;
+
+}
+
+/*Color amarillo de coderhouse: #e9fe6a*/
+
+h1{
+    color: white; 
+
+}
+
+h3, p{
+    text-align: center;
+    color: white;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color:#383a43;
+    
+}
+
+.withoutLine{
+    text-decoration: none;
+    color: black;
+}
+
+.withoutLine:hover{
+    color: white;
+}
+
+
+.formu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+    height: 20rem;
+    margin: auto;
+}
